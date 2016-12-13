@@ -1,0 +1,14 @@
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Service.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Service.pdb
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\obj\Debug\Contoso.Service.csprojResolveAssemblyReference.cache
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\obj\Debug\Contoso.Service.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\obj\Debug\Contoso.Service.pdb
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Service.dll.config
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\EntityFramework.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\EntityFramework.xml
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Core.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Data.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Core.pdb
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Service\bin\Debug\Contoso.Data.pdb
