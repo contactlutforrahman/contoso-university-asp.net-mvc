@@ -43,7 +43,15 @@ namespace ContosoUniversity.App_Start
             // container.RegisterType<IProductRepository, ProductRepository>();
             container.RegisterType<IDbContext, ContosoUniversityContext>( new PerRequestLifetimeManager());
             container.RegisterType<IStudentService, StudentService>(new PerRequestLifetimeManager());
+            container.RegisterType<ICourseService, CourseService>(new PerRequestLifetimeManager());
+            container.RegisterType<IDepartmentService, DepartmentService>(new PerRequestLifetimeManager());
+            container.RegisterType<IInstructorService, InstructorService>(new PerRequestLifetimeManager());
+            container.RegisterType<IOfficeAssignmentService, OfficeAssignmentService>(new PerRequestLifetimeManager());
             container.RegisterType<IRepository<Student>, Repository<Student>>(new PerRequestLifetimeManager());
+            container.RegisterType<IRepository<Course>, Repository<Course>>(new PerRequestLifetimeManager());
+            container.RegisterType<IRepository<Department>, Repository<Department>>(new PerRequestLifetimeManager());
+            container.RegisterType<IRepository<Instructor>, Repository<Instructor>>(new PerRequestLifetimeManager());
+            container.RegisterType<IRepository<OfficeAssignment>, Repository<OfficeAssignment>>(new PerRequestLifetimeManager());
         }
     }
 }

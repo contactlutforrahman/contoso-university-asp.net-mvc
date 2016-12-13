@@ -1,9 +1,9 @@
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\Contoso.Core.dll.config
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\Contoso.Core.dll
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\Contoso.Core.pdb
-E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\obj\Debug\Contoso.Core.dll
-E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\obj\Debug\Contoso.Core.pdb
-E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\Contoso.Core.dll.config
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\EntityFramework.dll
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\EntityFramework.SqlServer.dll
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\EntityFramework.xml
 E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\obj\Debug\Contoso.Core.dll
+E:\git-repo\contoso-university-asp.net-mvc\ContosoUniversity\Contoso.Core\obj\Debug\Contoso.Core.pdb

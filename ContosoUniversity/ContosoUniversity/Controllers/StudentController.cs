@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using Contoso.Core.Domain;
 using Contoso.Data.Context;
 using Contoso.Service.Service;
+using Contoso.Service;
 
 namespace ContosoUniversity.Controllers
 {

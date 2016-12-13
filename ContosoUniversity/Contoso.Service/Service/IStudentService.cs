@@ -1,4 +1,5 @@
-﻿using Contoso.Core.Domain;
+﻿using Contoso.Core;
+using Contoso.Core.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,31 @@ namespace Contoso.Service.Service
 {
     public interface IStudentService
     {
-        void InsertStudent(Student student);
-        IEnumerable<Student> GetAllStudents();
+        /// <summary>
+        /// Get a student by id
+        /// </summary>
+        /// <param name="id">id</param>
+        /// <returns></returns>
         Student GetStudentById(int? id);
+
+        /// <summary>
+        /// Inserts a student
+        /// </summary>
+        /// <param name="student">Student</param>
+        void InsertStudent(Student student);
+
+        /// <summary>
+        /// Updates the student
+        /// </summary>
+        /// <param name="student">Student</param>
         void UpdateStudent(Student student);
-        void DeleteStudent(int id);
+
+        IList<Student> GetAllStudents();
+
+        /// <summary>
+        /// Deletes the student
+        /// </summary>
+        /// <param name="id"></param>
+        void DeleteStudent(int? id);
     }
 }
