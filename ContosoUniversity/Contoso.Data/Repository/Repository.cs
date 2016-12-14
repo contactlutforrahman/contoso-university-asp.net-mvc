@@ -19,30 +19,6 @@ namespace Contoso.Data.Repository
             this._context = context;
         }
 
-        public IQueryable<T> Table
-        {
-            get
-            {
-                return this.Entities;
-            }
-        }
-
-        public void Delete(T entity)
-        {
-            try
-            {
-                if (entity == null)
-                    throw new ArgumentNullException("entity");
-                this.Entities.Remove(entity);
-                this._context.SaveChanges();
-            }
-            catch (DbEntityValidationException dbEx)
-            {
-                throw new Exception(GetFullErrorText(dbEx), dbEx);
-            }
-        }
-
-
         public T GetById(object id)
         {
             return this.Entities.Find(id);
@@ -62,6 +38,14 @@ namespace Contoso.Data.Repository
                 throw new Exception(GetFullErrorText(dbEx), dbEx);
             }
         }
+		
+		public IQueryable<T> Table
+        {
+            get
+            {
+                return this.Entities;
+            }
+        }
 
         public void Update(T entity)
         {
@@ -77,6 +61,20 @@ namespace Contoso.Data.Repository
             }
         }
 
+        public void Delete(T entity)
+        {
+            try
+            {
+                if (entity == null)
+                    throw new ArgumentNullException("entity");
+                this.Entities.Remove(entity);
+                this._context.SaveChanges();
+            }
+            catch (DbEntityValidationException dbEx)
+            {
+                throw new Exception(GetFullErrorText(dbEx), dbEx);
+            }
+        }
 
         private string GetFullErrorText(DbEntityValidationException exc)
         {
